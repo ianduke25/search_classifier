@@ -9,8 +9,6 @@ Information about model training and performance was presented to ACLU attorneys
 ## Repository Contents
 
 1. **embedding_and_training.ipynb**: This Jupyter notebook contains the code for embedding the transcripts and training the classification model.
-2. **best_random_forest_model.pkl**: This file contains the pre-trained Random Forest model, which has been optimized for classifying police search-related transcripts.
-3. **search_labels.csv**: This CSV file contains the labeled data used for training the model. Each transcript is labeled as either containing a police search or not.
 
 ## Setup Instructions
 
@@ -45,26 +43,8 @@ To run the notebook and use the model, you will need the following:
 2. Open `embedding_and_training.ipynb` in Jupyter Notebook.
 3. Follow the steps in the notebook to understand the data preprocessing, embedding, and model training processes.
 
-### Using the Pre-Trained Model
+## Required Data
 
-The pre-trained model (`best_random_forest_model.pkl`) can be loaded and used to classify new transcripts. Here is an example of how to use the model:
-
-```python
-import pickle
-
-# Load the pre-trained model
-with open('best_random_forest_model.pkl', 'rb') as file:
-    model = pickle.load(file)
-
-# Load new transcripts and preprocess them as shown in the notebook
-# ...
-
-# Predict using the model
-predictions = model.predict(new_transcripts)
-```
-
-## Data
-
-The `search_labels.csv` file contains labeled data used for training the model. It includes two columns:
+A `search_labels.csv` file containing labeled data used for training the model. It should include two columns:
 - `transcript`: The text of the transcript.
 - `label`: The label indicating whether the transcript contains a police search (1) or not (0).
