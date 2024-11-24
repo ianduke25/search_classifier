@@ -1,5 +1,5 @@
 
-# ACLU Police Search Transcript Classifier
+# Bodycam Transcript Search Classifier
 
 This repository contains resources for a project aimed at classifying transcripts that contain police searches. The project includes a model training notebook, a pre-trained model (Test Set Accuracy: 88% | Precision: 45% | Recall: 83%), and labeled data used for training. 
 
