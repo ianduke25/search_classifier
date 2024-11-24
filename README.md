@@ -23,11 +23,11 @@ To run the notebook and use the model, you will need the following:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/ia/ACLU-police-search-classifier.git
+   git clone [https://github.com/ia/ACLU-police-search-classifier.git](https://github.com/ianduke25/search_classifier)
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ACLU-police-search-classifier
+   cd search_classifier
    ```
 3. Install the required Python packages:
    ```bash
