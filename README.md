@@ -29,10 +29,6 @@ To run the notebook and use the model, you will need the following:
    ```bash
    cd search_classifier
    ```
-3. Install the required Python packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ### Running the Notebook
 
